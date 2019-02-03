@@ -1,0 +1,39 @@
+.navigation {
+
+  &__nav {
+    padding-top: 7rem;
+    padding-right: 5rem;
+  }
+
+  &__list {
+    display: flex;
+
+    list-style: none;
+    justify-content: flex-end;
+  }
+
+  &__item {
+
+  }
+
+  &__link {
+
+    &:link,
+    &:visited {
+      font-size: 1.5rem;
+      font-weight: 300;
+      padding: 1rem 2rem;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    &:hover {
+
+    }
+
+    &:active {
+
+    }
+  }
+}
